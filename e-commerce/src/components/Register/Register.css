@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@600&display=swap");
+
+.register {
+  margin-top: 10vh;
+  display: grid;
+  justify-content: center;
+}
+.login {
+  margin-top: 10vh;
+  display: grid;
+  justify-content: center;
+}
+
+.cardRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 6px 6px rgb(179, 219, 226);
+  width: 50vw;
+  height: auto;
+  min-width: 300px;
+  min-height: 450px;
+
+  margin: 10px;
+}
+.login > .cardRegister > h2 {
+  margin-top: 20px;
+}
+.cardRegister > h2 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-family: "Grandstander", cursive;
+}
+.cardRegister > .input > input {
+  width: 40vw;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.link > h3 {
+  cursor: pointer;
+  margin: 20px;
+  color: rgb(73, 73, 73);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}

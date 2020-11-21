@@ -1,0 +1,46 @@
+.createpost {
+  margin-top: 10vh;
+  display: grid;
+  justify-content: center;
+}
+.shopitem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 6px 6px rgb(179, 219, 226);
+  width: 50vw;
+  height: auto;
+  min-width: 300px;
+  min-height: 450px;
+  max-width: 515px;
+  margin: 10px;
+}
+
+.shopitem > h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: x-large;
+  font-family: "Grandstander", cursive;
+  color: rgb(91, 97, 109);
+}
+.custominput > input {
+  width: 40vw;
+  max-width: 400px;
+  margin: 10px;
+}
+
+.post_input {
+  margin: 50px;
+}
+.post_input > input {
+  width: 40vw;
+  max-width: 400px;
+  margin-left: auto;
+}
+.post_button {
+  display: flex;
+  justify-content: center;
+}

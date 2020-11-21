@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Rubik:ital,wght@0,300;0,400;1,300&family=Sansita+Swashed:wght@300&family=Texturina:wght@100&display=swap");
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 534px;
+  height: 80px;
+  text-decoration: none;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+  overflow: hidden;
+  align-items: center;
+}
+.logout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(241, 107, 107);
+  margin-right: 10px;
+  cursor: pointer;
+}
+.basketnav {
+  color: rgb(255, 0, 34);
+}
+.navbar_logo {
+  margin-left: 10px;
+  font-family: "Grandstander", cursive;
+}
+
+.navbar_items {
+  flex: 1;
+}
+
+/* Style the links inside the navigation bar */
+
+.navbar_link {
+  margin-right: 10px;
+}
+
+.navbar_link > a {
+  color: #9cabd3;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Change the color of links on hover */
+.navbar_link > a:hover {
+  color: rgb(215, 244, 248);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(0, 4, 255), 0 0 5px darkblue;
+}
+
+/* Add an active class to highlight the current page */
+/* .navbar>a.active {
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black,
+        0 0 25px rgb(0, 4, 255),
+        0 0 5px darkblue;
+
+
+} */
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
+.navbar_log {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar_log > h4 {
+  font-size: 12px;
+
+  font-weight: 650;
+  font-family: "Cinzel", serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Sansita Swashed", cursive;
+  font-family: "Texturina", serif;
+  background: -webkit-linear-gradient(rgb(17, 184, 235), rgb(9, 124, 76));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

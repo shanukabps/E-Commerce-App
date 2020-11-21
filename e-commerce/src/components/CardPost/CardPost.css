@@ -1,0 +1,120 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 6px 6px rgb(179, 219, 226);
+  width: 50vw;
+  height: auto;
+  min-width: 300px;
+  min-height: 450px;
+  max-width: 515px;
+  margin: 10px;
+}
+.cardmargin {
+  margin: 5px;
+}
+.card_img {
+  width: 49vw;
+  height: 39vh;
+  min-width: 290px;
+  min-height: 200px;
+  max-width: 505px;
+}
+.cardPost_delete {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Grandstander", cursive;
+  font-weight: 450;
+
+  background: -webkit-linear-gradient(rgb(98, 112, 235), rgb(78, 235, 195));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.name_link {
+  text-decoration: none;
+  color: rgb(87, 85, 85);
+}
+
+.deleteicon {
+  color: rgb(243, 113, 113);
+}
+
+.card > h6 {
+  margin-right: 10px;
+  color: rgb(73, 73, 73);
+  font-size: small;
+}
+.card_body {
+  margin-right: 10px;
+  color: rgb(87, 85, 85);
+  font-size: 12px;
+  font-weight: 500;
+}
+.card_icon {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  max-width: 484px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.cardb {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.likecount {
+  margin-left: 5px;
+  color: grey;
+  font-size: x-small;
+  font-weight: 500;
+}
+.card_margin {
+  margin: 5px;
+}
+.card_disply {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.comment_box {
+  margin: 10px;
+
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 90px;
+}
+.comment {
+  margin-top: 15px;
+  display: flex;
+}
+
+.conmment_input_input {
+  margin: 5px;
+  max-width: 470px;
+  width: 44vw;
+}
+.coment_send_button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(118, 189, 247);
+}
+.comment_name {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+.comment_name > h5 {
+  color: rgb(35, 126, 179);
+  font-size: 12px;
+  font-weight: 500;
+}
+.comment_name > h5 > span {
+  color: rgb(104, 107, 106);
+  font-size: 11px;
+  font-weight: 600;
+}

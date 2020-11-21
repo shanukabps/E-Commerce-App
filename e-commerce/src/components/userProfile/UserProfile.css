@@ -1,0 +1,15 @@
+.userprofilec {
+  padding: 10px;
+  width: 50vw;
+  height: 700px;
+}
+
+.home_card > h3 {
+  margin: 10px 0;
+  color: rgb(145, 148, 148);
+  font-family: "Inconsolata", monospace;
+}
+
+.userprofile__card_image {
+  width: 500px;
+}
